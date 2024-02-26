@@ -1,0 +1,78 @@
+.display{
+    position: relative;
+}
+
+.container{
+    margin: 12%;
+    width: 90%;
+    max-width: 700px;
+    border: 2px solid green;
+    padding: 2%;
+    box-shadow: 2px 3px white ;
+}
+
+
+h1{
+    color: #fffcf2;
+    font-size: 4rem;
+}
+
+body{
+    background-color: #003554;
+}
+
+input{
+    display: inline-block;
+    width: 400px;
+    height: 4cqh;
+    border: 2px solid green;
+}
+
+img{
+    position: absolute;
+    top: 2px;
+    width: 35px;
+    z-index: 1;
+    cursor: pointer;
+
+    left: 53%;
+}
+
+button{
+    
+
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    animation: blink-animation 2s infinite;
+    margin: 5%;
+    padding: 1%;
+    border-radius: 30px;
+    border: 2px solid green;
+    box-shadow: 2px 3px ;
+}
+
+@keyframes blink-animation {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+button:hover{
+    background-color: green;
+    color: white;
+    transition: color 2s,background-color 1s;
+}
